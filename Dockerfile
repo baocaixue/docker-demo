@@ -1,5 +1,5 @@
 FROM openjdk:8-jre
-MAINTAINER fjy8018 fjy8018@gmail.com
+MAINTAINER isaac bao.isaac@gmail.com
 
 # Mycat 版本
 ENV MYCAT_VERSION 1.6-RELEASE
@@ -20,8 +20,3 @@ VOLUME /usr/local/mycat/conf
 EXPOSE 8066 9066
 
 ENTRYPOINT /usr/local/mycat/bin/mycat console
-
-作者：F嘉阳
-链接：https://juejin.im/post/5d41a761e51d45621512acf1
-来源：掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
