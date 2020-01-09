@@ -1,5 +1,5 @@
 FROM openjdk:8-jre
-MAINTAINER isaac bao.isaac@gmail.com
+MAINTAINER isaac bao bao.isaac@gmail.com
 
 # Mycat 版本
 ENV MYCAT_VERSION 1.6-RELEASE
